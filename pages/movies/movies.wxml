@@ -1,0 +1,16 @@
+<!--pages/movies/movies.wxml-->
+<navigator 
+  url="/pages/movieDetail/movieDetail?index={{index}}" 
+  wx:for="{{movie_data}}" 
+  wx:key="index">
+  <view class="movie_info clearfix">
+    <image src="{{item.images.large}}"></image>  <!--注意：要用item接引数据 -->
+    <view class="movie_detail">
+      <text class="movie_name">{{item.original_title}}</text>
+      <text class="movie_time">年份：{{item.year}}</text>
+      <text class="movie_director">导演：{{item.directors[0].name}}</text>
+    </view>
+    <text class="score">{{item.rating.average}}</text>
+  </view>
+</navigator>
+

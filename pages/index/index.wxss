@@ -1,0 +1,49 @@
+/**index.wxss**/
+.container{
+  background: #fff;
+  display: flex;
+  height: 100vh;
+
+  align-content: flex-end;
+}
+.iphone{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.nav-default{       /*注意：默认样式要写在前面，否则会覆盖激活样式*/
+  color: blue;
+}
+.nav-hover{
+  color: red;
+}
+
+.bor{
+  border: 1px solid #ccc;
+  color: green;
+  background: rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

@@ -1,0 +1,45 @@
+/* pages/movies/movies.wxss */
+@import '/pages/public/css/reset.wxss';
+
+.movie_info{
+  padding: 10rpx;
+  border-bottom: 1px solid #eee;
+
+}
+.movie_info image{
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 10rpx;
+
+}
+
+.movie_detail {
+  float: left;
+  height: 100rpx;
+  width: 70%;
+
+}
+.movie_detail text{
+  display: block;
+}
+.movie_detail .movie_name{
+  width: 100%;
+  font-weight: 500;
+  font-size: 24rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+.movie_detail .movie_time{
+  color: #333;
+}
+.movie_detail .movie_director{
+  font-weight: 400;
+}
+.score{
+  float: right;
+  color: red;
+  font-weight: bold;
+}

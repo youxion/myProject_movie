@@ -1,0 +1,24 @@
+<!--pages/template/tem.wxml-->
+<template name="list-tmp">
+  <view class="box-tmp">
+    <view class="time">
+      <image src="/pages/template/images/9.jpg "></image>
+      <text>{{rateTime}}, {{deliveryTime}}</text>
+    </view>
+    <view class="content-box">
+      <text class="teach">教育理念</text>
+      <image class="main-img" src="/pages/template/images/4.jpg "></image>
+      <text class="discription">nihaoafdjf年后的安德阿斯蒂借贷法IE爱的积分骄傲滴飞机ie阿姐nihaoafdjf年后的安德阿斯蒂借贷法IE爱的积分骄傲滴飞机ie阿姐nihaoafdjf年后的安德阿斯蒂借贷法IE爱的积分骄rweqrqwerqwerqwerq几啊四等奖诶加速度骄傲滴飞机额见覅饿哦加速度倒计时覅偶尔加水电费阿啥大家覅额偶记as大家覅偶尔就爱神的箭佛IE经发局哦法IE爱的积分骄傲滴飞机ie阿姐nihaoafdjf年后的安德阿斯蒂借贷法IE爱的积分骄傲滴飞机ie阿姐nihaoafdjf年后的安德阿斯蒂借贷法IE爱的积分骄傲滴飞机ie阿姐</text>
+      <view class="footer-tip">
+        <view>
+          <image src="/pages/template/images/collect.png "></image>
+          <text>88</text>
+        </view>
+        <view class="approve" >
+          <image src="/pages/template/images/approve.png "></image>
+          <text>66</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

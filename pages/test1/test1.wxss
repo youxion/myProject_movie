@@ -1,0 +1,34 @@
+/* pages/test1/test1.wxss */
+.box{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding: 100rpx 0;
+
+}
+.userImg{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+
+}
+.btn-authorized{
+  color: red;
+  width: 200rpx;
+  height: 100rpx;
+  background: blue;
+  margin-top: 50rpx;
+}
+.userName{ 
+  margin-top: 50rpx;
+  text-align: center;
+} 
+.nickName{
+  color: red;
+}
+.click-to{
+  margin-top: 50rpx;
+  color: black;
+  background: rgb(130, 150, 101);
+}

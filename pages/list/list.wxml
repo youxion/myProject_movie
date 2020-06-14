@@ -1,0 +1,38 @@
+<!--pages/lsit/list.wxml-->
+<import src='/pages/template/templateList.wxml'/>
+
+<view class="wrapper">
+  <swiper 
+    class="swiper" 
+    catchtap="swipperToDetial"
+    indicator-dots 
+    indicator-color="black" 
+    autoplay="true"
+    circular="true"
+    interval="3000"
+    duration="2000"
+    indicator-active-color="red">
+    <swiper-item>
+      <image data-index='0' src="/pages/list/images/0.jpg "></image>
+    </swiper-item>
+    <swiper-item>
+      <image data-index='1' src="/pages/list/images/1.jpg "></image>
+    </swiper-item>
+    <swiper-item>
+      <image data-index='2' src="/pages/list/images/2.jpg "></image>
+    </swiper-item>
+    <swiper-item>
+      <image data-index='3' src="/pages/list/images/3.jpg "></image>
+    </swiper-item>
+  </swiper>
+  <!-- <view class="wrappre-tmp">
+    <template is='list-tmp' />
+  </view> -->
+
+  <block wx:for='{{listArr}}' wx:key='index'>
+    <view catchtap="toDetail" data-index="{{index}}">
+      <template is="list-tmp" data="{{...item}}"></template>
+    </view>   <!-- data="{{...item}} -->
+  </block>
+
+</view>

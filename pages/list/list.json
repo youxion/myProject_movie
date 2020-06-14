@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "你好，这是list页面",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff",
+  "onReachBottomDistance": 100,
+  "usingComponents": {}
+}

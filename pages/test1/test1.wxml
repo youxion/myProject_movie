@@ -1,0 +1,13 @@
+<!--pages/test1/test1.wxml-->
+<view class="box">
+  <image class="userImg" src="{{userInfo.avatarUrl}} "></image>
+  <button class="btn-authorized" 
+          open-type="getUserInfo"
+          style="display:{{ isShow ? 'block' : 'none'}}" 
+          bindgetuserinfo="handleUserInfo">请授权</button>
+  <text class="userName">欢迎<text class="nickName">{{userInfo.nickName}}</text>进来</text> 
+  <button class="click-to" catchtap="handleClick">点击页面跳转</button>
+</view>
+
+
+

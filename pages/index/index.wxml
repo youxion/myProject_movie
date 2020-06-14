@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo"> 
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击授权登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <image class="iphone" src="/pages/index/images/phone.jpg"></image>
+  <text >电影周周看</text>
+  <text class="bor" bindtap="toHome">点击进入电影主页面</text>
+ 
+ 
+ 
+  <!-- <view>
+    <text>我</text>
+    <navigator style="display:inline;" 
+              url="/pages/weeky/weeky"
+              open-type="navigate"
+              class="nav-default"
+              hover-class="nav-hover"
+    >每周推荐</navigator>
+    <text class="bor">一部电影</text>
+  </view>
+  <text class="bor">333</text> -->
+
+ 
+
+
+</view>

@@ -1,0 +1,10 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#aaa",
+  "navigationBarTitleText": "你好，这是movies页面",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff",
+  "onReachBottomDistance": 100,
+  "disableScroll": false,
+  "usingComponents": {}
+}

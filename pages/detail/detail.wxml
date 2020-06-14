@@ -1,0 +1,35 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail_box">
+  <view class="box_imgTop">     <!--：detailObj.avatar -->
+    <image class="img_top" src="{{!isPlayBg ? detailObj.avatar : 'http://p2.music.126.net/DAF1vBVXlomTTG6i--LaQQ==/109951164530070478.jpg'}}"></image>
+    <image class="play_pause" catchtap="handleMusic" src="{{!isMusicPlay ? '/pages/detail/images/play.png' : '/pages/detail/images/pause.png'}}"></image> 
+  </view> 
+  <view class="speaker_info">
+    <image src="/pages/detail/images/9.jpg "></image>
+    <text>Tom 发布于 {{detailObj.deliveryTime}}</text>
+  </view>   
+  <text class="company_name">联思普瑞</text>
+  <view class="share_box">    
+    <view class="share">  
+      <image catchtap="handleCollect" wx:if="{{!isCollected}}" src="/pages/detail/images/collect.png "></image>
+      <image catchtap="handleCollect" wx:if="{{isCollected}}" src="/pages/detail/images/collect_active.png "></image>
+      <image catchtap="handleShare" src="/pages/detail/images/share_active.png "></image>
+    </view>
+    <view class="line"></view>    
+  </view>
+  <button open-type="share">转发文章</button>     
+  <text class="article_con">拉结ad见覅额及非架飞机诶骄傲的金额拉结ad见覅额及非架飞机诶骄傲的金额拉结ad见覅额及非架飞机诶骄傲的金额拉结ad见覅额及非架飞机诶骄傲的金额拉结ad见覅额及非架飞机诶骄傲的金额拉结ad见覅额及非架飞机诶骄傲的金额
+    拉结ad见覅额及非架飞机诶骄傲的金额拉结ad见覅额及非架飞机诶骄傲的金额拉结ad见覅额及非架飞机诶骄傲的金额拉结ad见覅额及非架飞机诶骄傲的金额v拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IEjaj我拉结ad见覅额及非架飞机诶骄傲的金额
+    阿飞接阿见覅额及阿电费按得分IE接阿借贷法IE
+  </text>            
+</view>
